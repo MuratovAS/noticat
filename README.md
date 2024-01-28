@@ -2,7 +2,7 @@
 Things I changed:
 1. Add support dwlb
 2. Static linking is used
-<br>
+
 
 # cNoti - Little DBus Notification Monitor
 
