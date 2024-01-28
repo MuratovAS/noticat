@@ -17,7 +17,7 @@ jobs:
       run: sudo apt install libdbus-glib-1-dev
     - name: Build noti
       run: make
-    - name: Install noti
-      run: sudo make install
+    # - name: Install noti
+    #   run: sudo make install
     - name: Run noticat
-      run: noticat -h
+      run: ./noticat -h
