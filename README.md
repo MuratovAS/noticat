@@ -1,3 +1,9 @@
+# This is a fork of [mibli/cnoti](https://github.com/mibli/cnoti)  
+Things I changed:
+1. Add support dwlb
+2. Static linking is used
+<br>
+
 # cNoti - Little DBus Notification Monitor
 
 Because subscribing to notifications should be simple. This library wraps around DBus notification
