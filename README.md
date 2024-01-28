@@ -45,6 +45,9 @@ example to MQTT) eg.
     USE_CJSON=YES make noticat
     noticat -json | mosquitto_pub -t /notifications -l
 
+    DWLB_STRLEN=64 make
+    noticat -dwlb | dwlb -status-stdin all
+
 ## Example
 
 First You need a function that will handle the output:
