@@ -3,6 +3,16 @@ Things I changed:
 1. Add support dwlb
 2. Static linking is used
 
+> [!NOTE]
+>
+> If you have no other notification demon. You will need to create an imaginary service.
+> `/usr/share/dbus-1/services/noticat.service`
+> ```
+> [D-BUS Service]
+> Name=org.freedesktop.Notifications
+> Exec=/usr/bin/sleep
+> ```
+> This does not implement the notification service, but the applications will think that it exists.
 
 # cNoti - Little DBus Notification Monitor
 
